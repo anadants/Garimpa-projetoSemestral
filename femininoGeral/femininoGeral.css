@@ -1,14 +1,15 @@
+/* Cabeçalho */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
-.header {
+.cabecalho {
     background-color: #000;
     color: #fff;
 }
 
-.promoBanner {
+.bannerPromocional {
     background-color: #99caff;
     text-align: center;
     padding: 10px 0;
@@ -16,27 +17,23 @@ body {
     color: #000;
 }
 
-.content {
+.conteudoCabecalho {
     display: flex;
     align-items: center;
     padding: 10px 20px;
 }
-.content img{
-height: 150px;
-width: 115px;
+
+.conteudoCabecalho img {
+    height: 150px;
+    width: 115px;
 }
 
-.header-logo {
-    width: 80px;
-    margin-right: 20px;
-}
-
-.pesquisa {
+.campoPesquisa {
     flex: 1;
     display: flex;
 }
 
-.pesquisa input {
+.campoPesquisa input {
     width: 500px;
     padding: 5px;
     font-size: 16px;
@@ -44,7 +41,7 @@ width: 115px;
     justify-content: right;
 }
 
-.pesquisa button {
+.campoPesquisa button {
     padding: 5px 10px;
     font-size: 16px;
     background-color: #99caff;
@@ -52,7 +49,7 @@ width: 115px;
     cursor: pointer;
 }
 
-.buttons button {
+.botoesCabecalho button {
     background-color: #666;
     color: #fff;
     border: none;
@@ -61,154 +58,112 @@ width: 115px;
     cursor: pointer;
 }
 
-.menu {
+.menuNavegacao {
     display: flex;
     justify-content: center;
     background-color: #222;
     padding: 10px 0;
 }
 
-.menu a {
+.menuNavegacao a {
     color: #fff;
     margin: 0 10px;
     text-decoration: none;
     font-size: 14px;
 }
 
-.menu a:hover {
+.menuNavegacao a:hover {
     text-decoration: underline;
 }
 
-
-
 /* Seção de Produtos */
-.product-section {
+.secaoProdutos {
     padding: 20px;
     text-align: center;
-    background-color: #f9f9f9;
 }
 
-.product-section h1 {
-    font-size: 1.8rem;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.product-grid {
+.gradeProdutos {
     display: flex;
-    flex-wrap: wrap;
     gap: 20px;
-    justify-content: center;
+    justify-items: center;
 }
 
-.product-item {
-    background-color: #fff;
+.produto {
     border: 1px solid #ddd;
-    border-radius: 5px;
-    width: 200px;
     padding: 10px;
     text-align: center;
 }
 
-.product-item img {
+.produto img {
     width: 100%;
     height: auto;
-    border-radius: 5px;
 }
 
-.product-item h2 {
-    font-size: 1.2rem;
+.produto h2 {
+    font-size: 18px;
     color: #333;
-    margin: 10px 0;
 }
 
-.product-item p {
-    font-size: 1rem;
-    color: #e74c3c;
+.produto p {
+    font-size: 16px;
+    color: #666;
 }
 
-.product-item button {
-    padding: 8px 12px;
-    background-color: #666;
-    color: #fff;
+.produto button {
+    background-color: #99caff;
+    color: #000;
     border: none;
+    padding: 10px 20px;
     cursor: pointer;
-    border-radius: 5px;
-    margin-top: 10px;
 }
 
-.product-item button:hover {
-    background-color: #555;
+.produto button:hover {
+    background-color: #66aaff;
 }
 
-
-
-
-
+/* Rodapé */
 footer {
-    background-color: #000000;
-    color: #FFFFFF;
+    background-color: #000;
+    color: #fff;
     padding: 20px;
     font-family: Arial, sans-serif;
 }
 
-.footerContent {
+.conteudoRodape {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.footerLogo img {
-    width: 80px; /* Ajuste o tamanho conforme necessário */
+.logoRodape img {
+    width: 80px;
 }
 
-.footerContact p {
+.contatoRodape p {
     margin: 5px 0;
 }
 
-.footer-links h4 {
+.linksRodape h4 {
     margin-bottom: 10px;
     font-weight: bold;
 }
 
-.footer-links ul {
+.linksRodape ul {
     list-style: none;
     padding: 0;
 }
 
-.footer-links ul li {
+.linksRodape ul li {
     margin: 5px 0;
 }
 
-.footer-links ul li a {
-    color: #FFFFFF;
+.linksRodape ul li a {
+    color: #fff;
     text-decoration: none;
 }
 
-.footer-links ul li a:hover {
+.linksRodape ul li a:hover {
     text-decoration: underline;
 }
 
-.footer-social a img {
-    width: 25px; /* Ajuste o tamanho conforme necessário */
-    margin-right: 10px;
-}
-
-.footer-bottom {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 0.9em;
-}
-
-footer p {
-    margin: 0;
-}
-
-footer a {
-    color: #FFFFFF;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}

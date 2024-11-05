@@ -1,0 +1,205 @@
+/* Estilos Gerais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: #000;
+    color: #fff;
+}
+
+.bannerPromocao {
+    background-color: #99caff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #000;
+}
+
+.conteudoCabecalho {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.conteudoCabecalho img {
+    height: 150px;
+    width: 115px;
+}
+
+.barraPesquisa {
+    flex: 1;
+    display: flex;
+}
+
+.barraPesquisa input {
+    width: 500px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.barraPesquisa button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #99caff;
+    border: none;
+    cursor: pointer;
+}
+
+.botoesUsuario button {
+    background-color: #666;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.menuNavegacao {
+    display: flex;
+    justify-content: center;
+    background-color: #222;
+    padding: 10px 0;
+}
+
+.menuNavegacao a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menuNavegacao a:hover {
+    text-decoration: underline;
+}
+
+/* Seção de Produtos */
+.secaoProdutos {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.secaoProdutos h1 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.gradeProdutos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.produto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.produto h2 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+.produto p {
+    font-size: 1rem;
+    color: #e74c3c;
+}
+
+.produto button {
+    padding: 8px 12px;
+    background-color: #666;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.produto button:hover {
+    background-color: #555;
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.conteudoRodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logoRodape img {
+    width: 80px;
+}
+
+.contatoRodape p {
+    margin: 5px 0;
+}
+
+.linksRodape h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.linksRodape ul {
+    list-style: none;
+    padding: 0;
+}
+
+.linksRodape ul li {
+    margin: 5px 0;
+}
+
+.linksRodape ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.linksRodape ul li a:hover {
+    text-decoration: underline;
+}
+
+.redesSociais a img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.rodapeInferior {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.rodape p {
+    margin: 0;
+}
+
+.rodape a {
+    color: #fff;
+}
+
+.rodape a:hover {
+    text-decoration: underline;
+}
