@@ -1,0 +1,212 @@
+/* Estilos Gerais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
+.header {
+    background-color: #000;
+    color: #fff;
+}
+
+.promoBanner {
+    background-color: #99caff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #000;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.content img {
+    height: 150px;
+    width: 115px;
+}
+
+.header-logo {
+    width: 80px;
+    margin-right: 20px;
+}
+
+.pesquisa {
+    flex: 1;
+    display: flex;
+}
+
+.pesquisa input {
+    width: 500px;
+    padding: 5px;
+    font-size: 16px;
+    display: flex;
+    justify-content: right;
+}
+
+.pesquisa button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #99caff;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons button {
+    background-color: #666;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: #222;
+    padding: 10px 0;
+}
+
+.menu a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Seção de Produtos */
+.product-section {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.product-section h1 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-item h2 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+.product-item p {
+    font-size: 1rem;
+    color: #e74c3c;
+}
+
+.product-item button {
+    padding: 8px 12px;
+    background-color: #666;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.product-item button:hover {
+    background-color: #555;
+}
+
+/* Rodapé */
+footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footerLogo img {
+    width: 80px;
+}
+
+.footerContact p {
+    margin: 5px 0;
+}
+
+.footer-links h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 5px 0;
+}
+
+.footer-links ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-social a img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #FFFFFF;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
