@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="femininoAcessorios.css">
+    <link rel="stylesheet" href="produto.css">
     <title>Cabeçalho Garimpa Brechó</title>
 </head>
 <body>
@@ -40,22 +40,72 @@
 
 
 
+    <!-- Inicio da pagina produto -->
+    <main>
+        <section class="produto-container">
+            <div class="imagem-produto">
+                <img src="produto.jpg" alt="Imagem do Produto">
+            </div>
+            
+            <!-- Descrição do Produto -->
+            <div class="descricao-produto">
+                <h1>Nome do Produto</h1>
+                <p class="preco">R$ 299,99</p>
+                <p class="descricao">Descrição breve do produto que destaca suas principais características e vantagens.</p>
+                
+                <!--  parte de escolher tamanho-->
+                <div class="opcoes">
+                    <label for="tamanho">Tamanho:</label>
+                    <select id="tamanho">
+                        <option>P</option>
+                        <option>M</option>
+                        <option>G</option>
+                    </select>
+
+                    <label for="cor">Cor:</label>
+                    <select id="cor">
+                        <option>Vermelho</option>
+                        <option>Azul</option>
+                        <option>Preto</option>
+                    </select>
+                </div>
+
+                <!-- Botão do Carrinho -->
+                <button class="botao-compra">Adicionar ao Carrinho</button>
+            </div>
+        </section>
+
+        <!--  detalhes-->
+        <section class="detalhes-produto">
+            <h2>Detalhes do Produto</h2>
+            <p>Informações detalhadas sobre o produto, incluindo especificações, materiais, instruções de uso, etc.</p>
+        </section>
+
+        <!-- Avaliação -->
+        <section class="avaliacoes">
+            <h2>Avaliações</h2>
+            <div class="avaliacao">
+                <p><strong>Cliente 1:</strong> "Ótimo produto! Recomendo."</p>
+                <p><strong>Nota:</strong> ★★★★☆</p>
+            </div>
+            <div class="avaliacao">
+                <p><strong>Cliente 2:</strong> "Produto de excelente qualidade."</p>
+                <p><strong>Nota:</strong> ★★★★★</p>
+            </div>
+        </section>
+    </main>
 
 
 
 
 
-
-
-
-
-
+    <!-- final -->
 <footer>
-    <div class="footerContent">
-        <div class="footerLogo">
+    <div class="footer-content">
+        <div class="footer-logo">
             <img src="WhatsApp_Image_2024-10-30_at_10.22.16-removebg-preview (1).png" alt="">
         </div>
-        <div class="footerContact">
+        <div class="footer-contact">
             <p>E-mail: contato@garimpabrecho</p>
             <p>Telefone: 11 96559-8871</p>
         </div>

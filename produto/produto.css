@@ -93,18 +93,18 @@ footer {
     font-family: Arial, sans-serif;
 }
 
-.footerContent {
+.footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.footerLogo img {
-    width: 80px; /* Ajuste o tamanho conforme necessário */
+.footer-logo img {
+    width: 80px; 
 }
 
-.footerContact p {
+.footer-contact p {
     margin: 5px 0;
 }
 
@@ -132,7 +132,7 @@ footer {
 }
 
 .footer-social a img {
-    width: 25px; /* Ajuste o tamanho conforme necessário */
+    width: 25px; 
     margin-right: 10px;
 }
 
@@ -153,3 +153,7 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+
+
+
